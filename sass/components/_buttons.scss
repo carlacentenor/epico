@@ -1,0 +1,68 @@
+.b_button--block {
+    border-radius: 8px;
+    color: white;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.b_button--small {
+    height: 24px;
+    width: 24px;
+    color: white;
+}
+
+// Color Button
+
+.b_button--color--green {
+    background-color: $success-verde;
+
+    &:hover {
+        opacity: 0.3;
+    }
+    &:active {
+        opacity: 0.1;
+    }
+}
+
+.b_button--color--melon {
+    background-color: $melon-ngr;
+
+    &:hover {
+        opacity: 0.3;
+    }
+
+    &:active {
+        opacity: 0.1;
+    }
+}
+
+.b_button--color--orange {
+    background-color: $naranja-ngr;
+    &:hover {
+        opacity: 0.3;
+    }
+    &:active {
+        opacity: 0.1;
+    }
+}
+
+//Buttons Cancel
+
+.b_button--cancel--green {
+    border-color: $success-verde;
+    color: $success-verde;
+}
+
+.b_button--cancel--melon {
+    border-color: $melon-ngr;
+    color: $melon-ngr;
+}
+
+.b_button--cancel--orange {
+    border-color: $naranja-ngr;
+    color: $naranja-ngr;
+}
+

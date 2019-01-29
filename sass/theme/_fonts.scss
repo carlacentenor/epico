@@ -1,6 +1,4 @@
 
-    
-
 
 .f_heading--1 {
     font-family: $omnes-regular;
@@ -17,5 +15,16 @@
     font-size: 1em;
 }
 .f_heading--4 {
+    font-family: $omnes-bold;
+    font-size: 0.875em;
+}
+
+.f-body{
+    font-family: $omnes-regular;
+    font-size: 1em;
+}
+
+.f-body--inputs{
+    font-family: $omnes-regular;
     font-size: 0.875em;
 }
