@@ -1,0 +1,55 @@
+
+// Colors NGR
+
+$rojo-ngr: #AC162C;
+$naranja-ngr:#FF4338;
+$melon-ngr:#FF8300;
+$gris-ngr:#978B82;
+
+
+// Colors Complementary
+
+$dark-melon:#C55400;
+$dark-rojo:#750003;
+$success-verde:#16AC96;
+$error-rojo:#EB0C0C;
+
+// Colors Gray
+
+$negro-90:#1A1A1A;
+$negro-70:#4D4D4D;
+$negro-50:#808080;
+$negro-30:#B3B3B3;
+$negro-20:#E5E5E5;
+$negro-2:#FAFAFA;
+
+// Fonts
+
+@font-face {
+    font-family: "omnes-bold";
+    src: url('../assets/fonts/Omnes-Bold.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "omnes-light";
+    src: url('../assets/fonts/Omnes-Light.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "omnes-regular";
+    src: url('../assets/fonts/Omnes_Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "omnes-medium";
+    src: url('../assets/fonts/Omnes-Medium.otf') format("truetype");
+}
+@font-face {
+    font-family: "omnes-semibold";
+    src: url('../assets/fonts/omnes-semibold-webfont.ttf') format("truetype");
+}
+
+$omnes-bold : omnes-bold;
+$omnes-light: omnes-light;
+$omnes-regular:omnes-regular;
+$omnes-medium:omnes-medium;
