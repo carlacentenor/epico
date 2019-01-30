@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "omnes-bold";
+  src: url("../assets/fonts/Omnes-Bold.otf") format("truetype");
+}
+@font-face {
+  font-family: "omnes-light";
+  src: url("../assets/fonts/Omnes-Light.otf") format("truetype");
+}
+@font-face {
+  font-family: "omnes-regular";
+  src: url("../assets/fonts/Omnes_Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "omnes-medium";
+  src: url("../assets/fonts/Omnes-Medium.otf") format("truetype");
+}
+@font-face {
+  font-family: "omnes-semibold";
+  src: url("../assets/fonts/omnes-semibold-webfont.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: omnes-regular, Arial, Helvetica, sans-serif;
+}
+
+.f_heading--1 {
+  font-family: omnes-regular;
+  font-size: 2em;
+}
+
+.f_heading--2 {
+  font-family: omnes-medium;
+  font-size: 1.5em;
+}
+
+.f_heading--3 {
+  font-family: omnes-semibold;
+  font-size: 1em;
+}
+
+.f_heading--4 {
+  font-family: omnes-bold;
+  font-size: 0.875em;
+}
+
+.f-body {
+  font-family: omnes-regular;
+  font-size: 1em;
+}
+
+.f-body--inputs {
+  font-family: omnes-regular;
+  font-size: 0.875em;
+}
+
+.l-shadow--1 {
+  box-shadow: 0px 2px 4px #E5E5E5;
+}
+
+.l-shadow--2 {
+  box-shadow: 0px 3px 8px #E5E5E5;
+}
+
+.l-shadow--3 {
+  box-shadow: 0px 4px 16px #E5E5E5;
+}
+
+.l-shadow--4 {
+  box-shadow: 0px 5px 24px #E5E5E5;
+}
+
+.b_button--block {
+  border-radius: 8px;
+  color: white;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+}
+
+.b_button--small {
+  height: 24px;
+  width: 24px;
+  color: white;
+}
+
+.b_button--color--green {
+  background-color: #16ab95;
+}
+.b_button--color--green:hover {
+  background-color: #5dead5;
+}
+.b_button--color--green:active {
+  background-color: #13907e;
+}
+
+.b_button--color--melon {
+  background-color: #FF8300;
+}
+.b_button--color--melon:hover {
+  background-color: #ffa647;
+}
+.b_button--color--melon:active {
+  background-color: #e67700;
+}
+
+.b_button--color--orange {
+  background-color: #FF4338;
+}
+.b_button--color--orange:hover {
+  background-color: #ff5147;
+}
+.b_button--color--orange:active {
+  background-color: #a30800;
+}
+
+.b_button--cancel--green {
+  border-color: #16ab95;
+  color: #16ab95;
+}
+
+.b_button--cancel--melon {
+  border-color: #FF8300;
+  color: #FF8300;
+}
+
+.b_button--cancel--orange {
+  border-color: #FF4338;
+  color: #FF4338;
+}
+
+.c_cards {
+  box-shadow: 0px 3px 8px #E5E5E5;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.c_cards--menu {
+  border-radius: 3px;
+  box-shadow: 0px 3px 8px #E5E5E5;
+  border: 0.75px solid #b3b3b3;
+}
+
+.c_pictures--user {
+  width: 84px;
+  height: 84px;
+  border-radius: 3px;
+}
+
+.c_logo {
+  width: 178px;
+  height: 75px;
+}
+
+.c_input {
+  border: 1px solid #B3B3B3;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  width: auto;
+}
+.c_input .input_login {
+  border: none;
+}
+.c_input::placeholder {
+  color: #B3B3B3;
+  font-size: 14px;
+}
+
+.l_form-control-input {
+  display: grid;
+  grid-template-columns: 40px 212px;
+  align-items: center;
+  justify-content: center;
+}
+
+.l_input--icon {
+  text-align: center;
+  border: 1px solid #B3B3B3;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.l_input--icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
