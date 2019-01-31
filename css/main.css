@@ -57,12 +57,28 @@ body {
   font-family: omnes-regular, Arial, Helvetica, sans-serif;
 }
 
+.l_login--container {
+  display: grid;
+  grid-template-areas: "login";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .l_login--container {
+    grid-template-areas: "carrusel carrusel carrusel carrusel login";
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.2fr;
+  }
+}
+
 .l_login--section {
+  grid-area: login;
   display: grid;
   grid-template-rows: 2.5fr 1fr 1fr 0.5fr 1fr;
   align-items: center;
   justify-items: center;
-  height: 100vh;
+  height: inherit;
 }
 
 .l_login--info {
@@ -309,6 +325,11 @@ body {
   border: solid #16ab95;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+
+.l_login--carrusel {
+  grid-area: carrusel;
+  background-image: url("../assets/images/marca1.png");
 }
 
 /*# sourceMappingURL=main.css.map */
