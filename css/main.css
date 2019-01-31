@@ -128,6 +128,9 @@ body {
   border: none;
   font-family: omnes-regular;
 }
+.b_button--block:focus {
+  outline: none;
+}
 
 .b_button--small {
   height: 24px;
@@ -204,9 +207,6 @@ body {
 }
 
 .c_input {
-  border: 1px solid #B3B3B3;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
   height: 48px;
   width: 242px;
   display: flex;
@@ -215,9 +215,14 @@ body {
 }
 .c_input .input_login {
   border: none;
-  margin-left: 12px;
+  border: 1px solid #B3B3B3;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   color: #B3B3B3;
   font-size: 14px;
+  height: 46px;
+  width: 242px;
+  padding-left: 12px;
 }
 .c_input .input_login:focus {
   outline: none;
@@ -297,10 +302,10 @@ body {
   content: "";
   display: block;
   position: absolute;
-  top: 4px;
-  left: 9px;
-  width: 6px;
-  height: 14px;
+  top: 0px;
+  left: 7px;
+  width: 5px;
+  height: 12px;
   border: solid #16ab95;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);

@@ -1,7 +1,5 @@
 .c_input {
-    border: 1px solid $negro-30;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+
     height: 48px;
     width: 242px;
     display: flex;
@@ -10,12 +8,20 @@
 
     .input_login {
         border: none;
-        margin-left: 12px;
+        border: 1px solid $negro-30;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
         color: $negro-30;
         font-size: 14px;
+        height: 46px;
+        width: 242px;
+        padding-left: 12px;
 
         &:focus {
             outline: none;
+            // box-shadow: 0px 4px 16px $negro-20;
+            // border: 1px solid $negro-20;
+       
         }
 
         &::placeholder {

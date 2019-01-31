@@ -8,6 +8,9 @@
     font-size: 16px;
     border:none;
     font-family: $omnes-regular;
+    &:focus{
+        outline: none;
+    }
 }
 
 .b_button--small {
