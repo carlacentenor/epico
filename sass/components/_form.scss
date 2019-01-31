@@ -2,33 +2,61 @@
     border: 1px solid $negro-30;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 10px;
-    width: auto;
+    height: 48px;
+    width: 242px;
+    display: flex;
+    align-items: center;
+    position: relative;
 
-    .input_login{
+    .input_login {
         border: none;
-        
-    }
-
-    &::placeholder {
+        margin-left: 12px;
         color: $negro-30;
         font-size: 14px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $negro-30;
+            font-size: 14px;
+            font-family: $omnes-regular;
+        }
     }
+
+    .c_icon--visibility {
+        position: absolute;
+        right: 12px;
+    }
+
+
+
+
 }
 
 .l_form-control-input {
     display: grid;
-    grid-template-columns: 40px 212px;
+    grid-template-columns: 48px 242px;
     align-items: center;
     justify-content: center;
+
 }
 
 .l_input--icon {
 
     text-align: center;
-    border: 1px solid $negro-30;
+    border-top: 1px solid $negro-30;
+    border-bottom: 1px solid $negro-30;
+    border-left: 1px solid $negro-30;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .l_input--icon img {

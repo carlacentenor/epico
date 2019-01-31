@@ -1,0 +1,41 @@
+.c_form-checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.c_form-checkbox label {
+    position: relative;
+    cursor: pointer;
+    bottom: 4px;
+    color: $negro-30
+}
+
+.c_form-checkbox label:before {
+    content: '';
+    background-color: transparent;
+    border: 1px solid $negro-30;
+    border-radius: 4px;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.c_form-checkbox input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid $success-verde;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

@@ -1,8 +1,11 @@
 // config
 @import "config/variables";
-
+@import "config/spaces";
 // base
 @import "base/base";
+
+// layout
+@import "layout/grid";
 
 // Theme
 @import "theme/fonts";
@@ -14,4 +17,7 @@
 @import "components/pictures";
 @import "components/logo";
 @import "components/form";
+@import "components/enlaces";
+@import "components/checkboxs";
+
 // layout
